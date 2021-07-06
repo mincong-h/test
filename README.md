@@ -29,3 +29,8 @@ curl https://mincong.io/test/index.txt
 ```
 Welcome to gp-pages test.
 ```
+
+## References
+
+- [MrPowerScripts, How to get around the jekyll-pagination-v2 limitation of GitHub pages with CircleCI](https://mrpowerscripts.com/github-pages-circleci-jekyll-paginate-v2/)
+- [Sangsoo Nam, Using Git Worktree to Deploy GitHub Pages](https://sangsoonam.github.io/2019/02/08/using-git-worktree-to-deploy-github-pages.html)
