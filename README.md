@@ -2,7 +2,7 @@
 
 Test gh-pages
 
-## Steps
+## Test 1 - Simple File
 
 Prepare file:
 
@@ -29,6 +29,24 @@ curl https://mincong.io/test/index.txt
 ```
 Welcome to gp-pages test.
 ```
+
+## Test 2 - mincong.io
+
+```sh
+# Under directory mincong-h.github.io, generate the entire site
+./docker-serve.sh
+
+# Copy content to test
+cp -r _site/ ../test/_site
+
+# Go to test site, commit and deploy
+cd ../test/_site
+git add .
+git commit -m "Generate content"
+git push
+```
+
+Visit <https://mincong.io/test/> to see the result.
 
 ## References
 
